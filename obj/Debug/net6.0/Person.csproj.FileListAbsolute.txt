@@ -1,0 +1,15 @@
+D:\Person\Person\obj\Debug\net6.0\Person.csproj.AssemblyReference.cache
+D:\Person\Person\obj\Debug\net6.0\Person.GeneratedMSBuildEditorConfig.editorconfig
+D:\Person\Person\obj\Debug\net6.0\Person.AssemblyInfoInputs.cache
+D:\Person\Person\obj\Debug\net6.0\Person.AssemblyInfo.cs
+D:\Person\Person\obj\Debug\net6.0\Person.csproj.CoreCompileInputs.cache
+D:\Person\Person\bin\Debug\net6.0\Person.exe
+D:\Person\Person\bin\Debug\net6.0\Person.deps.json
+D:\Person\Person\bin\Debug\net6.0\Person.runtimeconfig.json
+D:\Person\Person\bin\Debug\net6.0\Person.dll
+D:\Person\Person\bin\Debug\net6.0\Person.pdb
+D:\Person\Person\obj\Debug\net6.0\Person.dll
+D:\Person\Person\obj\Debug\net6.0\refint\Person.dll
+D:\Person\Person\obj\Debug\net6.0\Person.pdb
+D:\Person\Person\obj\Debug\net6.0\Person.genruntimeconfig.cache
+D:\Person\Person\obj\Debug\net6.0\ref\Person.dll
