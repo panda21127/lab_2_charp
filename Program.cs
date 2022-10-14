@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
@@ -11,7 +11,7 @@ namespace Person
         static void Main()
         {
             Student student = new Student(); // Создание объекта класса Student по встроенному конструктору
-            //Student student2 = new Student(new Person("Bill", "Herringtan", 1998, 4, 2), Education.Bachelor, 125);// Создание объекта класса Student вручную
+            Student student2 = new Student(new Person("Bill", "Herringtan", 1998, 4, 2), Education.Bachelor, 3);// Создание объекта класса Student вручную
 
 
             ArrayList exams = new ArrayList();
@@ -27,6 +27,7 @@ namespace Person
             Console.WriteLine(student.ToShortString());//Краткая информация о классе Student
             Console.WriteLine("==============================");
 
+            Console.WriteLine(student.Students.ToString());
 
             Person person = new Person();
             Person person2 = new Person();
@@ -36,11 +37,11 @@ namespace Person
             Console.WriteLine("HashCode2 {0}", person2.GetHashCode());
             Console.WriteLine(person == person2);
             Console.WriteLine(person.Equals(person2));
-            person2 = new Person("Bill", "Herringtan", 1998, 4, 2);
-            Console.WriteLine(person2.ToString());
-            Console.WriteLine("HashCode2 {0}", person2.GetHashCode());
 
+            Console.WriteLine(person.ToString());
             person2 = (Person)person.DeepCopy();
+            person = new Person("Bill", "Herringtan", 1998, 4, 2);
+            Console.WriteLine(person.ToString());
             Console.WriteLine(person2.ToString());
             Console.WriteLine(person.ToString());
             Console.WriteLine(person == person2);
